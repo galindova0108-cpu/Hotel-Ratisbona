@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Ratisbona | Regístrate</title>
+    <link rel="shortcut icon" href="../IMG1/icon.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS-FORMULARIO/estilo-formulario.css">
+
+</head>
+<body>
+
+    <a href="../Index.html" class="back-link">&#8592; Volver
+    </a>
+
+    <div class="container">
+
+        <div class="form-logo">
+            <img src="../IMG1/logo02.png" alt="Hotel Ratisbona">
+        </div>
+
+
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cd53c601-377b-4520-b669-51ff1e293b2d">
+
+            <h2>Regístrate</h2>
+
+            <p class="subtitle">Ingresa tus datos y pronto nos pondremos en contacto contigo.</p>
+
+            <div class="input-group">
+
+                <!-- Nombres y Apellidos -->
+                <label for="name">Nombres y Apellidos</label>
+                <input type="text" name="name" id="name" placeholder="Ingrese tus nombres y apellidos" required>
+
+                <!-- Teléfono -->
+                <label for="phone">Teléfono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Ingrese su número" required>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su correo electrónico" required>
+
+                <!-- Días -->
+                <label for="dias">Días</label>
+                <select name="dias" id="dias" required>
+                    <option value="" disabled selected>Selecciona los días de estadía</option>
+                    <option value="1">1 día</option>
+                    <option value="2">2 días</option>
+                    <option value="3">3 días</option>
+                    <option value="4">4 días</option>
+                    <option value="5">5 días</option>
+                    <option value="6">6 días</option>
+                    <option value="7">7 días o más</option>
+                </select>
+
+                <!-- Asunto -->
+                <label for="asunto">Asunto</label>
+                <textarea name="asunto" id="asunto" rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+
+                <div class="form-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <span>Enviar Mensaje</span>
+                </button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
