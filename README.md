@@ -1,0 +1,1 @@
+Es un hotel que proporciona habitaciones privadas y servicios básicos como baños, limpieza y recepción. Ofrecen comodidades adicionales como Wifi, piscinas, áreas de Spa y servicios de entretenimiento como plataformas digitales.
